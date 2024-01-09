@@ -11,16 +11,16 @@ variable "secretkey" {
 }
 
 variable "vpcID" {
-	default="vpc-0932daf21fd6e22ba"
+	default=""
 }
 variable "amiID" {
-	default="ami-023c11a32b0207432"
+	default=""
 }
 variable "keyPair" {
-	default="firstkey"
+	default=""
 }
 variable "keyPair1" {
-	default="firstkey.pem"
+	default=""
 }
 
 
